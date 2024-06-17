@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real Estate Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    #servicescards ul li:hover{
+       background-color:lightgrey;
+    }
+    .card-img-overlay {
+            transition: 0.3s ease-in-out;
+            opacity: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+        }
+
+        .card:hover .card-img-overlay {
+            opacity: 1;
+        }
+</style>
+<body>
+
+    <nav class="navbar  bg-dark navbar-dark navbar-expand-lg py-3 fixed-top">
+        <div class="container">
+            <div class="h4"><a href="/Html/RealEstatehome.html" class="navbar-brand"><span class="h3">Real</span><span
+                        class="text-success h3">Estate</span></a></div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/Html/RealEstatehome.html" class="nav-link ">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./realestate.html" class="nav-link ">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#questions" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="/Html/servicesclient1.html" style="text-decoration: none; color:black;">Service1</a></li>
+                            <li class="dropdown-item"><a href="/Html/servicesclient1.html" style="text-decoration: none; color:black;">Service1</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#questions" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">Project</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="/Html/project1realestate.html" style="text-decoration: none; color:black;">Project1</a></li>
+                            <li class="dropdown-item"><a href="/Html/project1realestate.html" style="text-decoration: none; color:black;">Project1</a></li>
+            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Html/realestategalley.html" class="nav-link ">Gallary</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-light p-5 text-center">
+        <h1 class="display-4 my-5">Our Servies</h1>
+        <p class="lead">Explore our wide range of properties for sale or rent.</p>
+        <a class="btn btn-primary btn-lg" href="/Html/viewpropertyservices.html">View Properties</a>
+    </div>
+    
+    <!-- Properties Section -->
+<div class="container mt-5 " id="servicescards">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Property 1 -->
+        <div class="col">
+            <div class="card position-relative">
+                <img src="/images/slide-3.jpg" class="card-img-top" alt="Property 1" style="height: 180px;">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Luxury Apartments</h5>
+                    <p class="card-text">Discover our exclusive collection of luxury apartments with modern amenities.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">2 Bedrooms</li>
+                    <li class="list-group-item">2 Bathrooms</li>
+                    <li class="list-group-item">1,200 sqft</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                    <a href="#" class="card-link">Contact</a>
+                </div>
+            </div>
+        </div>
+        <!-- Property 2 -->
+        <div class="col">
+            <div class="card position-relative">
+                <img src="/images/slide-2.jpg" class="card-img-top" alt="Property 2">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Residential Homes</h5>
+                    <p class="card-text">Explore comfortable and spacious residential homes in prime locations.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">3 Bedrooms</li>
+                    <li class="list-group-item">2.5 Bathrooms</li>
+                    <li class="list-group-item">2,500 sqft</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                    <a href="#" class="card-link">Contact</a>
+                </div>
+            </div>
+        </div>
+        <!-- Property 3 -->
+        <div class="col">
+            <div class="card position-relative">
+                <img src="/images/slide-1.jpg" class="card-img-top" alt="Property 3">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Commercial Spaces</h5>
+                    <p class="card-text">Find the perfect commercial space for your business needs.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Office Spaces</li>
+                    <li class="list-group-item">Meeting Rooms</li>
+                    <li class="list-group-item">Dedicated Parking</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                    <a href="#" class="card-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Pricing Section -->
+<div class="container mt-5 bg-secondary p-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Premium Membership</h5>
+                    <p class="card-text">Unlock exclusive features and benefits with our premium membership.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Access to VIP Property Listings</li>
+                        <li class="list-group-item">Personalized Assistance from Real Estate Experts</li>
+                        <li class="list-group-item">Priority Viewing Appointments</li>
+                    </ul>
+                    <p class="card-text mt-3">$99.99/month</p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Basic Membership</h5>
+                    <p class="card-text">Start your real estate journey with our basic membership.</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Access to Standard Property Listings</li>
+                        <li class="list-group-item">Email Notifications on New Listings</li>
+                    </ul>
+                    <p class="card-text mt-3">Free</p>
+                    <a href="#" class="btn btn-secondary">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="container mt-5 mb-5">
+    <h2 class="text-center">Contact Us</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+    
+</body>
+</html>

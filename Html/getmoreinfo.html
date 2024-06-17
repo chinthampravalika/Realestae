@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Css/realestate.css">
+    <link rel="icon" type="image/x-icon" href="../images/gallary4.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  /* Add custom styles for the image and hover effect */
+  .image-container {
+    overflow: hidden;
+  }
+
+  .image-container img {
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .image-container:hover img {
+    transform: scale(0.5);
+  }
+   /* Add custom styles for the carousel and hover effect */
+   .carousel-item img {
+      transition: transform 0.0s ease-in-out;
+    }
+
+    .carousel-item:hover img {
+      transform: scale(0.8);
+    }
+    #heading{
+      margin-top: 8%;
+    }
+  
+</style>
+<body>
+  <nav class="navbar  bg-dark navbar-dark navbar-expand-lg py-3 fixed-top">
+    <div class="container">
+        <div class="h4"><a href="/Html/RealEstatehome.html" class="navbar-brand"><span class="h3">Real</span><span
+                    class="text-success h3">Estate</span></a></div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="/Html/RealEstatehome.html" class="nav-link ">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./realestate.html" class="nav-link ">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#questions" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="/Html/servicesclient1.html" style="text-decoration: none; color:black;">Service1</a></li>
+                        <li class="dropdown-item"><a href="/Html/servicesclient1.html" style="text-decoration: none; color:black;">Service1</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#questions" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">Project</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="/Html/project1realestate.html" style="text-decoration: none; color:black;">Project1</a></li>
+                        <li class="dropdown-item"><a href="/Html/project1realestate.html" style="text-decoration: none; color:black;">Project1</a></li>
+        
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="../Html/realestategalley.html" class="nav-link ">Gallary</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <section id="qanda" >
+        <h1 class="display-5   bg-dark text-info container-fluid text-center" id="heading">More information about realestate agency with <br>question and answer</h1>
+        <div class="container-fluid">
+
+            <div class="row">
+                <dov class="col">
+                    <div class="accordion my-5" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What types of properties do you specialize in?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="lead">A: We specialize in residential properties, including single-family homes, condos, and apartments. We also handle commercial properties such as office spaces and retail units.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What sets your agency apart from others in the market?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="lead">Our agency prides itself on personalized service, a deep understanding of local markets, and innovative marketing strategies. We prioritize client satisfaction and go the extra mile to exceed expectations.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Q: How do you market properties to attract potential buyers or tenants?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="lead">A: Our marketing strategy includes a mix of online and offline methods. We utilize professional photography, virtual tours, social media, and targeted advertising to showcase properties to a wide audience.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                                How do you assist first-time homebuyers in the purchasing process?
+                              </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <p class="lead">We offer specialized guidance to first-time homebuyers, explaining the entire process, providing educational resources, and connecting them with trusted mortgage professionals. Our goal is to make the homebuying experience as smooth as possible.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingfive">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #4
+                              </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingsix">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #5
+                              </button>
+                            </h2>
+                            <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingseven" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </dov>
+            </div>
+        </div>
+    </section>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Carousel -->
+          <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="1000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/images/gallary1.avif" alt="Image 1" class="d-block w-100 ">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/testimonial-2.jpg" alt="Image 2" class="d-block w-100 img-fluid">
+              </div>
+              <!-- Add more carousel items as needed -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!-- Content -->
+          <h2>Welcome to Your Dream Home</h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptatem accusantium doloremque laudantium, totam rem aperiam.
+          </p>
+          <p class="lead">
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p class="lead">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <div class="d-flex">
+          <img src="/images/testimonial-2.jpg" class="rounded-circle img-fluid my-2" alt="" style="width: 20%; box-shadow: 0 0 10 solid;">
+          <p class="fw-bold my-5">&nbsp;&nbsp;&nbsp;Plaboo&Emma</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-white " id="footer">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>RealEstate
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#" class="text-reset">Homes</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">Flates</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Space</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">RealEstate.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+    
+    <!-- Bootstrap JS and Popper.js (for optional Bootstrap features) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
